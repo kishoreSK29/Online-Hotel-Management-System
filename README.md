@@ -7,14 +7,19 @@ The Online Hotel Management System is a web application built with HTML, CSS, an
 ##Features
 
 --Room Booking: Users can view available rooms and book them with ease.
+
 --Interactive Functions: Engaging UI components that enhance user interaction.
+
 --Contact Feedback: Users can submit feedback or inquiries through a dedicated contact form.
+
 --Responsive Design: The application is optimized for both desktop and mobile devices.
 
 ##Technologies Used
 
 --HTML
+
 --CSS
+
 --JavaScript
 
 ##Installation
@@ -32,5 +37,7 @@ cd Online-Hotel-Management-System
 3.Open index.html in your preferred web browser.
 
 ##Usage
+
 --Booking a Room: Navigate to the booking section, select your desired room, and follow the prompts to complete your booking.
+
 --Contact Feedback: Fill out the contact form with your message and submit it for any inquiries or feedback.
