@@ -14,6 +14,7 @@ The Online Hotel Management System is a web application built with HTML, CSS, an
 
 --Responsive Design: The application is optimized for both desktop and mobile devices.
 
+
 ##Technologies Used
 
 --HTML
@@ -21,6 +22,7 @@ The Online Hotel Management System is a web application built with HTML, CSS, an
 --CSS
 
 --JavaScript
+
 
 ##Installation
 
@@ -35,6 +37,7 @@ Copy code
 cd Online-Hotel-Management-System
 
 3.Open index.html in your preferred web browser.
+
 
 ##Usage
 
