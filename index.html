@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+        <nav>
+            <a href="#rooms">Rooms</a>
+            <a href="#booking">Booking</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Experience Luxury</h2>
+        <video autoplay muted loop>
+            <source src="videos/hotel-intro.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="overlay"></div>
+    </section>
+
+    <section id="rooms">
+        <h2>Rooms</h2>
+        <div class="room">
+            <img src="images/room1.jpg" alt="Deluxe Room">
+            <div class="room-info">
+                <h3>Deluxe Room</h3>
+                <p>$200/night</p>
+                <button class="view-details">View Details</button>
+            </div>
+        </div>
+        <div class="room">
+            <img src="images/room2.jpg" alt="Suite Room">
+            <div class="room-info">
+                <h3>Suite Room</h3>
+                <p>$300/night</p>
+                <button class="view-details">View Details</button>
+            </div>
+        </div>
+        <div class="room">
+            <img src="images/room3.jpg" alt="Standard Room">
+            <div class="room-info">
+                <h3>Standard Room</h3>
+                <p>$150/night</p>
+                <button class="view-details">View Details</button>
+            </div>
+        </div>
+        <div class="room">
+            <img src="images/room4.jpg" alt="Executive Room">
+            <div class="room-info">
+                <h3>Executive Room</h3>
+                <p>$250/night</p>
+                <button class="view-details">View Details</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="booking">
+        <h2>Book Your Stay</h2>
+        <form id="booking-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="date" required>
+            <input type="number" placeholder="Number of Guests" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonial">
+            <blockquote>"A wonderful experience! The service was exceptional."</blockquote>
+            <cite>- Jane Doe</cite>
+        </div>
+        <div class="testimonial">
+            <blockquote>"Beautiful rooms and great amenities. Highly recommend!"</blockquote>
+            <cite>- John Smith</cite>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at: <a href="mailto:info@ourhotel.com">info@ourhotel.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
